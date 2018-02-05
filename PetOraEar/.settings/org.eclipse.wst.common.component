@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PetOraEar">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="PetOraEjb.jar" deploy-path="/" handle="module:/resource/PetOraEjb/PetOraEjb">
+            <dependent-object>Module_1517834835208</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PetOraEjbClient.jar" deploy-path="/" handle="module:/resource/PetOraEjbClient/PetOraEjbClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PetOraWeb.war" deploy-path="/" handle="module:/resource/PetOraWeb/PetOraWeb">
+            <dependent-object>Module_1517834885373</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
